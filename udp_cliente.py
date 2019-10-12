@@ -12,8 +12,8 @@
 import socket 
 import time
 
-serverAddressPort = (((socket.gethostbyname("leoalfred.ddns.net")), 20001)) #Direccion del servidor REMOTO y el puerto
-#serverAddressPort = ("127.0.0.1", 20001) #Direccion del servidor local y el puerto
+#serverAddressPort = (((socket.gethostbyname("leoalfred.ddns.net")), 20001)) #Direccion del servidor REMOTO y el puerto
+serverAddressPort = ("127.0.0.1", 20001) #Direccion del servidor local y el puerto
 bufferSize = 1024 # tamaño del bufer
 
 # La siguiente nstruccion crea el Datagrama para UDP
